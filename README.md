@@ -19,16 +19,7 @@
 
 ## About
 
-[**📚 Read this template tutorial! 📚**][template-docs]
-
-This template is designed for compiling Rust libraries into WebAssembly and
-publishing the resulting package to NPM.
-
-Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other
-templates and usages of `wasm-pack`.
-
-[tutorials]: https://rustwasm.github.io/docs/wasm-pack/tutorials/index.html
-[template-docs]: https://rustwasm.github.io/docs/wasm-pack/tutorials/npm-browser-packages/index.html
+Based on the following tutorial: https://rustwasm.github.io/docs/book/introduction.html
 
 ## 🚴 Usage
 
@@ -39,6 +30,13 @@ templates and usages of `wasm-pack`.
 ```
 cargo generate --git https://github.com/rustwasm/wasm-pack-template.git --name my-project
 cd my-project
+```
+
+### 🛠️ Run with `npm run start`
+
+```
+cd www
+npm run start
 ```
 
 ### 🛠️ Build with `wasm-pack build`
